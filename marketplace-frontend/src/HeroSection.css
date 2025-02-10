@@ -1,0 +1,81 @@
+/* src/HeroSection.css */
+.hero-section {
+  background: url("./assets/images/Hero.jpg") center center no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+  color: white;
+}
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.hero-section p {
+  font-size: 1.25rem;
+}
+
+.categories-section {
+  background-color: #212529; /* Bootstrap dark background */
+}
+
+.category-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 120px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  border: 2px solid #f8f9fa; /* Bootstrap light color */
+  background-color: transparent;
+}
+
+.category-button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
+  background-color: #f8f9fa;
+  color: #212529; /* Dark text on light background when hovering */
+}
+
+.category-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.category-name {
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Make buttons responsive */
+@media (max-width: 768px) {
+  .category-button {
+    min-height: 100px;
+  }
+
+  .category-icon {
+    font-size: 1.5rem;
+  }
+
+  .category-name {
+    font-size: 0.9rem;
+  }
+}
+
+/* Add to your existing CSS */
+.welcome-section {
+  background-color: #212529;
+  border-radius: 12px;
+  padding: 3rem !important;
+  margin-top: 6rem !important; /* To account for fixed navbar */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.welcome-section .lead {
+  font-size: 1.25rem;
+  opacity: 0.9;
+}
