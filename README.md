@@ -1,13 +1,17 @@
-# Sample Hardhat Project
+# Freelance Marketplace
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+A decentralized freelance marketplace built with React, Hardhat, and deployed on Sepolia.
 
-Try running some of the following tasks:
+## Features
+- Post new jobs with a specified budget.
+- Freelancers can submit bids on jobs.
+- Clients can accept bids, release payments, and rate freelancers.
+- Interactions are handled through Ethereum smart contracts.
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+## Installation and Setup
+
+### Prerequisites
+- [Node.js](https://nodejs.org/)
+- [Git](https://git-scm.com/)
+- [MetaMask](https://metamask.io/)
+
