@@ -49,7 +49,7 @@ function App() {
         connectedAccount={walletData.signer.address}
         disconnect={disconnect}
       />
-      <Container className="mt-4">
+      <div style={{ paddingTop: "56px" }}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route
@@ -69,7 +69,7 @@ function App() {
             element={<JobDetails walletData={walletData} />}
           />
         </Routes>
-      </Container>
+      </div>
     </div>
   );
 }
